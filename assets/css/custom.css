@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "cervo";
+    src: url("../fonts/cervo-neu.woff") format('woff');
+}
+.cfont{
+    font-family: cervo;
+}
+.heading-txt{
+    font-size: 8em;
+    line-height: 100%;
+}
+.btn-custom{
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .6em 1.85em!important;
+}
+.btn-custom:hover{
+    background-color: white;
+    color: black
+}
+.page-header {
+    background: #0000007a;
+}
+.btn-navbarc{
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .6em 0.85em!important
+}
+.btn-navbarc:hover{
+    background: rgba(255, 255, 255, 0.164);
+    border-color: rgba(255, 255, 255, 0.164);
+}
+.page-header>.content{
+    margin-top: 15%;
+}
+.navbar-collapse:before {
+    /* background: #f96332; */
+    background: linear-gradient(#e61c2b, #000 80%)!important;
+}
+.page-header>.auth-content {
+    margin-top: 10%;
+}
+.card-login.card-plain .input-group.no-border .form-control ,.card-login.card-plain .input-group.no-border .input-group-text{
+    background-color: hsla(0, 0%, 100%, 0.25)!important;
+    color: #fff;
+}
+.bg-theme{
+    background: #e61c2b;
+}
+.text-color{
+    color: #e61c2b;
+}
+.page-header.page-header-small {
+    min-height: 40vh;
+}
+.navbar-black{
+    background: black;
+}
+.bg-theme ul li a, .bg-theme:not(.footer-big) .copyright{
+    color: white;
+}
+.howstep{
+    text-align: center;
+    margin: 60px 0px;
+}
+.howstep h1{
+    font-size: 7em;
+    margin-bottom: 0px;
+}
+.howstep h4{
+    margin: 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: cervo;
+    margin-bottom: 10px;
+}
+.howstep p{
+    font-size: 14px;
+    color: #929292;
+}
+.min-hei{
+    height: 250px;
+}
+@media screen and (max-width:768px) {
+    .page-header>.content {
+        margin-top: 44%!important;
+    }
+}
