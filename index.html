@@ -34,7 +34,9 @@
       <div class="container">
         <div class="col-md-4 ml-auto mr-auto">
           <div class="card card-login card-plain">
-            <form class="form" method="" action="">
+
+
+            <form class="myForm" name="myForm" method="" action="">
               <div class="card-header text-center">
                 <div class="logo-container">
                   <a href="index.html">
@@ -51,7 +53,7 @@
                       <i class="fa fa-user"></i>
                     </span>
                   </div>
-                  <input type="text" class="form-control" placeholder="Username">
+                  <input id="username" type="text" class="form-control" placeholder="Username">
                 </div>
 
                 <!-- Email Address -->
@@ -61,7 +63,7 @@
                       <i class="fa fa-envelope"></i>
                     </span>
                   </div>
-                  <input type="email" class="form-control" placeholder="Email Address">
+                  <input id="emailAddress" type="email" class="form-control" placeholder="Email Address">
                 </div>
 
                 <!-- Password -->
@@ -71,7 +73,7 @@
                       <i class="fa fa-key"></i>
                     </span>
                   </div>
-                  <input type="password" placeholder="Password" class="form-control" />
+                  <input id="password" type="password" placeholder="Password" class="form-control" />
                 </div>
 
                 <!-- Confirm Password -->
@@ -81,7 +83,7 @@
                       <i class="fa fa-key"></i>
                     </span>
                   </div>
-                  <input type="password" placeholder="Confirm Password" class="form-control" />
+                  <input id="confirmPassword" type="password" placeholder="Confirm Password" class="form-control" />
                 </div>
 
                 <div class="">
@@ -92,6 +94,12 @@
             </form>
           </div>
         </div>
+
+        <!-- Message -->
+        <div class="alert" role="alert">
+
+        </div>
+
       </div>
     </div>
     <footer class="footer">
@@ -101,5 +109,6 @@
   <!--   Core JS Files   -->
 
 </body>
+<script src="assets/js/index.js"></script>
 
 </html>
